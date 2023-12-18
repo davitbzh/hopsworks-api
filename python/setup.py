@@ -16,7 +16,7 @@ setup(
     name="hopsworks",
     version=__version__,
     install_requires=[
-        "hsfs[python]~=3.5.0rc0",
+        "git+https://github.com/davitbzh/feature-store-api@FSTORE-1120#egg=hsfs[python]&subdirectory=python",
         "hsml~=3.5.0rc0",
         "pyhumps==1.6.1",
         "requests",
